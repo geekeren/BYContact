@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="1">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/back1"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:id="@+id/title"
+		    android:layout_width="match_parent"
+		    android:layout_height="70dp"
+		    android:background="#895A5A5A"
+		    android:orientation="horizontal" >
+
+		</LinearLayout>
+
+	    <TabWidget
+	        android:id="@android:id/tabs"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_alignParentBottom="true" 
+	     />
+
+		<FrameLayout
+		    android:id="@android:id/tabcontent"
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_above="@android:id/tabs"
+		    android:layout_below="@id/title" 
+		     android:background="#89FFFFFF"
+		    >
+
+			<!-- 定义第一个标签页的内容 -->
+
+			<LinearLayout
+			    android:id="@+id/tab01"
+			    android:layout_width="fill_parent"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="fill_vertical"
+			    android:fadingEdge="horizontal"
+			    android:orientation="vertical" >
+
+			</LinearLayout>
+
+			<!-- 定义第二个标签页的内容 -->
+			<LinearLayout
+				android:id="@+id/tab02"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				
+			</LinearLayout>
+			<!-- 定义第三个标签页的内容 -->
+			<LinearLayout
+				android:id="@+id/tab03"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:textSize="11pt">
+				
+			</LinearLayout>
+				<LinearLayout
+				android:id="@+id/tab04"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:textSize="11pt">
+				
+			</LinearLayout>
+		</FrameLayout>
+
+	</RelativeLayout >
+
+</TabHost>

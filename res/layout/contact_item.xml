@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>      
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:background="#FFF">    
+    <ImageView android:id="@+id/contact_image"    
+        android:layout_width="54dip" android:layout_height="54dip"
+        android:padding="3dp"
+        android:fadingEdge="horizontal"/>    
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/contact_image"
+        android:ellipsize="marquee"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textSize="20dp" 
+        android:textColor="#242424" />
+    
+    <TextView android:id="@+id/contact_number"    
+        android:layout_width="fill_parent" android:layout_height="wrap_content"    
+        android:layout_toRightOf="@+id/contact_image"    
+        android:layout_below="@+id/contact_name"    
+        android:layout_alignParentBottom="true"    
+        android:layout_alignParentRight="true"
+        android:padding="5dp"    
+        android:singleLine="true"    
+        android:ellipsize="marquee"     
+        android:textSize="13dip"
+        android:textColor="#7B7B7B" />    
+</RelativeLayout>  

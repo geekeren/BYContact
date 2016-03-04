@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="lianxiren_name">
+       <item>王柏元 18829235604</item>
+       <item>杨成林 18829235058</item>
+       <item>王 凯	18829235299</item>
+       <item>陈 旭	18829236962</item>
+       <item>马金良 18829236722</item>
+       <item>祁聪聪 18829234997</item>
+       <item>贡天水 18828236723</item>
+       <item>尚旭辉 18826235505</item>
+       <item>蒲 鑫	18829235586</item>
+       <item>闫正阳 18829237014</item>
+       <item>晏粮清 18829237438</item>
+       <item>郝 博	18829235358</item>
+       <item>张 宇	18829236963</item>
+   </string-array>
+     <string-array name="about">
+       <item>关于联系人：</item>
+       <item>作者主页：<a href="http://wangbaiyuan.cn">王柏元的博客</a></item>
+       <item>腾讯QQ：1586320567</item>
+       <item>EMAIL：1586320567@qq.com</item>
+       </string-array>
+</resources>

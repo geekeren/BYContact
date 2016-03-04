@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+        android:layout_gravity="left|top"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/phone_number"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#eee"
+    android:inputType="phone"
+    android:padding="5px"
+    android:textColor="#000"
+    android:textSize="50sp" 
+    android:tag="拨号"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:text="呼叫" />
+
+    <Button
+        android:id="@+id/clear_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除" />
+</LinearLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="3"
+    android:rowCount="4" >
+</GridLayout>
+    
+</FrameLayout>
+
+  </LinearLayout>

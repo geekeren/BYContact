@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">BY联系人</string>
+    <string name="action_exit">退出</string>
+    <string name="action_about">关于</string>
+    <string name="action_checkupdate">检测更新</string>
+    <string name="title_liebiao">联系人列表</string>
+    <string name="title_about">关于</string>
+    <string name="title_bohao">正在拨号……</string>
+    <string name="dialer">拨号</string>
+    <string name="contacts">联系人</string>
+    <string name="messages">信息</string>
+    <string name="searchContacts">查找联系人</string>
+    <string name="addContacts">添加</string>
+    <string name="title_activity_edit_contacts">Edit_contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_datail_contacts">Datail_contacts</string>
+    <string name="title_activity_detail_contacts">Detail_contacts</string>
+    <string name="title_activity_add_paper">AddPaper</string>
+
+</resources>
